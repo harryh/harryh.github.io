@@ -1,0 +1,53 @@
+html, body {
+  height: 100%;
+  font-family: helvetica;
+}
+
+a {
+  text-decoration: none;
+}
+
+div#header {
+  margin-top: 60px;
+  margin-left: 150px;
+  margin-bottom: 20px;
+}
+
+div#header a {
+  font-size: 45px;
+  font-weight: 300;
+  color: #000000;
+}
+
+div#main {
+  min-height: 100%;        
+  height: auto !important;
+	height: 100%;
+  margin-bottom: -35px;
+
+  margin-left: 150px;
+  width: 750px;
+}
+
+div#main h2 a {
+  font-size: 22px;
+  color: #505050;
+  margin-bottom: 15px;
+}
+
+div#main p {
+  margin-bottom: 12px;
+}
+
+div#footer {
+  height: 35px;
+  padding-top: 5px;
+  padding-right: 30px;
+  text-align: right;
+  color: #808080;
+  background-color: #000000;
+}
+
+div#footer a {
+  color: #808080;
+}
