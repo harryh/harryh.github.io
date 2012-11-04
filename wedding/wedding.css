@@ -1,0 +1,173 @@
+html {
+/*   height: 100%;
+ */}
+
+#bg {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  /* background: url("/img/Engagement045.jpg") no-repeat center center fixed; */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  z-index: -3;
+}
+
+#bg-cover {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  background: white;
+  opacity: 0.85;
+  z-index: -2;
+}
+
+#bg-cover-center {
+  position: fixed;
+  height: 100%;
+  width: 600px;
+  background: white;
+  opacity: 0.0;
+  z-index: -1;
+}
+
+body {
+  font-family: 'EB Garamond', serif;
+  margin: 0px;
+  padding: 0px;
+}
+
+#outer-container {
+  position:relative;
+  margin: 0px;
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#outer-table { display: table; width: 100%; }
+#center-vertically { display: table-cell; vertical-align: middle; }
+
+h1.headerText {
+  font-size: 3em;
+}
+
+#title {
+  position:absolute;
+  margin-top: 32px;
+  margin-left: auto;
+  margin-right: auto;
+  top: 0px;
+  width: 600px;
+}
+
+#nav {
+  position:absolute;
+  top: 90px;
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.navel {
+  margin-left: 10px;
+  margin-right: 10px;
+  display: inline;
+  text-decoration: none;
+  color: #606060 ;
+}
+.navel:hover {
+  cursor: pointer;
+}
+.navel.selected {
+  font-weight: bold;
+  color: #000000 ;
+}
+
+#content-container {
+  padding-top: 130px;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-size: 1.1em;
+}
+.content { 
+  position: relative;
+  display: none;
+}
+
+/* .content.stay {
+  height: 1000px;
+}
+ */
+ .content.selected { display: block; }
+.gmap {
+  position: absolute;
+  left: 0px;
+  bottom: 10px;
+}
+p.reservationCodes {
+  padding-left: 10px;
+  margin: 0;
+}
+
+#logo {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+}
+
+#us {
+  position: absolute;
+  left: 0px;
+  width: 500;
+  height: 372px;
+}
+
+label {
+/*   display:block; */
+  font-weight:normal;
+}
+
+.input {
+  border:1px solid #999;
+  padding:3px 6px;
+  vertical-align: top;
+  width: 300px;
+  background-color:transparent;
+}
+
+.ss-q-short {
+  width: 10px;
+  border-width: 1px;
+  background-color:transparent;
+}
+
+.submit {
+  font-size: 1em;
+}
+
+ul.ss-choices {
+  list-style-type: none;
+  padding-left: 10px;
+}
+
+form > div {
+  margin:1em 0;
+}
+
+form label em {
+  font-size:90%;
+}
+
+h3 {
+  margin-bottom: 0em;
+  margin-top: 1.5em;
+}
+
+a.listlink {
+  text-decoration: none;
+  color: #606060 ;
+}
+a.listlink:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
