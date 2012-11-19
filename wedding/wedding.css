@@ -3,7 +3,7 @@ body {
 }
 
 #outer-container {
-  position:relative;
+  position: relative;
   margin: 0px;
   width: 600px;
   margin-left: auto;
@@ -11,10 +11,15 @@ body {
 }
 
 #header {
+  text-align: center;
 }
 
 h1.headerText {
   font-size: 3em;
+}
+
+p {
+  margin-bottom: 15px;
 }
 
 #title {
@@ -34,7 +39,6 @@ h1.headerText {
   margin-right: auto;
 }
 
-
 .navel {
   margin-left: 10px;
   margin-right: 10px;
@@ -42,9 +46,11 @@ h1.headerText {
   text-decoration: none;
   color: #606060 ;
 }
+
 .navel:hover {
   cursor: pointer;
 }
+
 .navel.selected {
   font-weight: bold;
   color: #000000 ;
@@ -56,21 +62,25 @@ h1.headerText {
   padding-right: 50px;
   font-size: 1.1em;
 }
+
 .content { 
   position: relative;
   display: none;
 }
 
-/* .content.stay {
-  height: 1000px;
+.content.selected {
+  display: block;
 }
- */
- .content.selected { display: block; }
-.gmap {
-  position: absolute;
-  left: 0px;
-  bottom: 10px;
+
+div.question {
+  font-weight: bold;
+  margin-bottom: 15px;
 }
+
+div.answer {
+  margin-bottom: 15px;
+}
+
 p.reservationCodes {
   padding-left: 10px;
   margin: 0;
@@ -91,38 +101,7 @@ p.reservationCodes {
 
 label {
 /*   display:block; */
-  font-weight:normal;
-}
-
-.input {
-  border:1px solid #999;
-  padding:3px 6px;
-  vertical-align: top;
-  width: 300px;
-  background-color:transparent;
-}
-
-.ss-q-short {
-  width: 10px;
-  border-width: 1px;
-  background-color:transparent;
-}
-
-.submit {
-  font-size: 1em;
-}
-
-ul.ss-choices {
-  list-style-type: none;
-  padding-left: 10px;
-}
-
-form > div {
-  margin:1em 0;
-}
-
-form label em {
-  font-size:90%;
+  font-weight: normal;
 }
 
 h3 {
