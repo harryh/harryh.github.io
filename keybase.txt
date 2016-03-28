@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/harryh
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://harryh.com
+  * I am harryh (https://keybase.io/harryh) on keybase.
+  * I have a public key with fingerprint 2041 FC2E 0D1C 7B9A B8CE  4FA3 26C0 DDC8 24CC 3B7F
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "01011b162bab3bb1c60f4bbc146cbdb24845deb4f1c195155b479df2f177c2e28a2a0a",
+            "fingerprint": "2041fc2e0d1c7b9ab8ce4fa326c0ddc824cc3b7f",
+            "host": "keybase.io",
+            "key_id": "26c0ddc824cc3b7f",
+            "kid": "01011b162bab3bb1c60f4bbc146cbdb24845deb4f1c195155b479df2f177c2e28a2a0a",
+            "uid": "47a7addb4fd73f3a69ac46ac01c00219",
+            "username": "harryh"
+        },
+        "service": {
+            "hostname": "harryh.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1459186305,
+    "expire_in": 157680000,
+    "prev": "6456caabde569a05eac57359974d439eed74255ae1e128cb0b27312bf3230f64",
+    "seqno": 7,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.51
+Comment: https://keybase.io/crypto
+
+yMIhAnicrVJLSFRRGB4rK2cqnMighyWXHgtF7rn33NdUCGJELYIWtUkazuuOt8m5
+453R8dW70GpRhCIFgUmLNKIWFpQZKmJSkYXRA6xJUyuUUjDQCOxcqUXQsrM5nO//
+vu98/8/fvXS+x5uSvct70EmaD1OedF4s9eybOXi8SsA2rRACVUKYzV3sEGWxeDBs
+USEgiEAEAANVwgjLGAOiiibEmACoEkyxBHWoUIahCQgwFKAoGGoGNSUTaBqRmKQj
+CYlIyBFMKxJiTtSxInFuK4kQmLwuUkA0bCCsEwZNJEsqESklugQJkbFmcmGRHXMV
+PBxGMZZr2Rzjj+BcvH/w/3Pu0jk7qCENUcr5VJNNGakGIlBFRAREFCVguMQYcyKo
+mHF2EXKciiLhcI7AsTKLMHesbh9/1XOJXcx1UceO28Q+5OLxeDTgyuIVUZeXYDj4
+2yGIrQjlI+SCMubELDsiBABnkrjlWgKoGEBXZVHJEVh51HJY0HIZiqbqIj/uN6yM
+W6pQUQlCmDKF9yAqDBFFkxXD0CCFssEY1aCkKIgBBiSdYBFLmgwkbMqSLJoqFNye
+SiK2ENB4TBTiljErFEHxUocJh7s6Chd4Uryehanz3NXyeNPS/yxc3abFnlP+bXUH
+vmdcutlc+zW1caDW3JlT5A/QdXfnv17ROfzl54KM8HDe0OXHJyZOThy59q33U2XH
+2/vTJWt+TB4bW1/9orjixp2ZyOya5QNXcz+0vwThhuVvuw7s928cbM96lTmVzG/7
+5LvQgqora94976tGujXediTYTTKqCutPb3n4oLkm++zAo0VQbz2/0p4dm846N5vI
+b7jS23Rrff91Hx7Mvben2be6KfHl3ue04sehkVVLRsfebZ/qnmjcMVJTPtWSOYjH
+t5b5kujoUOh9z53WjwUFp1497fdu3pU4U78xicOo5/lu+6n/+MfWN3snb+8XSp69
+9m7qywPpa58ta16WtmH0F4VRSwE=
+=FLTW
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/harryh
+
+==================================================================
