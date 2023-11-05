@@ -12,6 +12,15 @@ body {
   margin: auto;
 }
 
+/* Floorplan container */
+.floorplan-container {
+  max-width: 1000px;
+  position: relative;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  margin: auto;
+}
+
 /* Hide the images by default */
 .mySlides {
   display: none;
