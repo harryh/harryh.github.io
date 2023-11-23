@@ -26,6 +26,18 @@ function showSlides(n) {
 
 slideIndex = 1;
 
+let touchstartX = 0;
+let touchendX = 0;
+
+function checkDirection() {
+  if (touchendX < touchstartX) {
+    plusSlides(-1);
+  }
+  if (touchendX > touchstartX) {
+    plusSlides(1);
+  }
+}
+
 function startSlideshow(n) {
   let slideIndex = n;
 
@@ -36,6 +48,15 @@ function startSlideshow(n) {
       plusSlides(-1);
     }
   });
+
+  document.addEventListener('touchstart', e => {
+    touchstartX = e.changedTouches[0].screenX
+  })
+
+  document.addEventListener('touchend', e => {
+    touchendX = e.changedTouches[0].screenX
+    checkDirection();
+  })
 
   showSlides(slideIndex);
 }
