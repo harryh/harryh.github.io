@@ -50,11 +50,11 @@ function startSlideshow(n) {
   });
 
   document.addEventListener('touchstart', e => {
-    touchstartX = e.changedTouches[0].screenX
+    touchstartX = e.changedTouches[0].screenX;
   })
 
   document.addEventListener('touchend', e => {
-    touchendX = e.changedTouches[0].screenX
+    touchendX = e.changedTouches[0].screenX;
     checkDirection();
   })
 
