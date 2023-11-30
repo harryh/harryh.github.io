@@ -31,10 +31,10 @@ let touchendX = 0;
 
 function checkDirection() {
   if (touchendX < touchstartX) {
-    plusSlides(-1);
+    plusSlides(1);
   }
   if (touchendX > touchstartX) {
-    plusSlides(1);
+    plusSlides(-1);
   }
 }
 
